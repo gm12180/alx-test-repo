@@ -4,14 +4,13 @@
  * Main - Prints the alphabet
  *
  * Return: Always (Success)
- * */
-Int main(void)
+ */
+int main(void)
 {
 	char c;
 
-	for (c = ‘a’; c <= ‘z’; c++)
+	for(c=‘a’; c <= ‘z’; c++)
 		putchar(c);
-
-	put char(“\n")
+	putchar('\n');
 	return (0);
 }
