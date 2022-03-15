@@ -1,4 +1,6 @@
- #include <stdio.h>
+#include <stdio.h>
+#include <"main.h">
+
 /*Print  _putchar*/
 
 int main(void)
