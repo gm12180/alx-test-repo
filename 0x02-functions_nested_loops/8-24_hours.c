@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * jack_bauer - print time table in this format: HH:M.M
  * Return: the sum of two numbers.
@@ -9,7 +9,7 @@ void jack_bauer(void)
 
 	for (h = 0; h < 24; h++)
 	{
-		for(m = 0; m < 60; m++)
+		for (m = 0; m < 60; m++)
 		{
 			_putchar((h / 10) + '0');
 			_putchar((h % 10) + '0');
